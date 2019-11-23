@@ -1,0 +1,20 @@
+.ba-section-do{
+	background: #333333 url(../img/do-bg.png) no-repeat 48% 14%;
+	padding: 100px 0 119px 0;
+
+
+	&__post{
+		text-align: center;
+	}
+
+	img{
+		background: #333333;
+		margin: 10px;
+	}
+
+	&__title{
+		color: #e8e8e8;
+		font-family: Aleo;
+		font-weight: 400;
+	}
+}

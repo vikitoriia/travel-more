@@ -1,0 +1,37 @@
+.ba-section-travel02 {
+  background: #000 url(../img/travel-bg.jpg) no-repeat 50%;
+  background-size: cover;
+  min-height: 100%;
+  padding: 229px 0 100px 0; }
+  .ba-section-travel02__spain {
+    max-width: 540px;
+    padding: 50px 32px 50px 30px;
+    background-color: rgba(0, 0, 0, 0.7); }
+    .ba-section-travel02__spain-title {
+      font-family: Josefin Sans;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 1;
+      margin-bottom: 30px; }
+    .ba-section-travel02__spain-subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      font-family: Josefin Sans;
+      color: #e8e8e8;
+      margin-bottom: 72px; }
+    .ba-section-travel02__spain-button {
+      padding: 24px 63px 23px 62px;
+      background: #5474fd;
+      color: #ffffff;
+      font-family: Aleo;
+      font-weight: 400;
+      text-transform: uppercase; }
+  .ba-section-travel02__country {
+    color: #e8e8e8;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px; }
+
+/*# sourceMappingURL=_section-travel02.css.map */

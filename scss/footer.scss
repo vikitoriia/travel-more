@@ -1,0 +1,28 @@
+.ba-footer{
+	background-color: #232323;
+	padding: 120px 0 52px 0;
+
+	display: flex;
+	text-align: center;
+	&-logo{
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	&-subtitle{
+		font-family: Josefin Sans;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 1.6px;
+	}
+
+	&-icon{
+		svg{
+			fill: #fff;
+
+			&:hover{
+				fill: #3c67b0;
+			}
+		}
+	}
+}

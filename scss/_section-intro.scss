@@ -1,0 +1,81 @@
+.ba-section-intro{
+	background: #5474fd url(../img/intro-bg.jpg) 50% no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	padding: 265px 0 215px;
+	position: relative;
+
+	
+	text-align: center;
+
+	&__title{
+		line-height: 26px;
+		letter-spacing: 4.8px;
+		margin: 0;
+		margin-bottom: 15px;
+	}
+
+	&__subtitle{
+		font-size: 22px;
+		font-family: Josefin Sans;
+		font-weight: 400;
+		letter-spacing: 6.82px;
+		line-height: 26px;
+		margin-bottom: 50px;
+	}
+	form{
+		max-width: 650px;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		// align-items: center;
+		margin: 0 auto; 
+		margin-bottom: 120px;
+
+	}
+
+	input[type="search"]{
+		text-align: center;
+		background-color: #ffffff;
+		width: 100%;
+		font-family: Josefin Sans;
+		font-size: 14px;
+		letter-spacing: 2.8px;		
+
+		&:focus{
+			border: 1px solid #5474fd;
+		}
+	
+	}
+
+	input[type="submit"]{
+		border: 2px solid #ffffff;
+		background: #5474fd url(../img/search-icon.svg) no-repeat 85%;
+		font-size: 14px;
+		letter-spacing: 1.4px;
+		text-transform: uppercase;
+		padding: 25px 52px 24px 36px;
+
+		&:hover{
+			background: #3c67b0 url(../img/search-icon.svg) no-repeat 85%;
+		}
+	}
+
+	&__scroll{
+		font-size: 14px;
+		font-weight: 400;
+		font-family: Josefin Sans;
+		letter-spacing: 2.8px;
+		text-transform: capitalize;
+
+		&::after{
+			content: "";
+			display: block;
+			background: url(../img/scroll-intro1.png) no-repeat 50%;
+			margin: 15px auto 0;
+			height: 20px;
+			width: 20px;
+		}
+	}
+
+}
